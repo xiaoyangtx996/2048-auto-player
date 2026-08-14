@@ -1,10 +1,12 @@
 // ==UserScript==
 // @name         2048 Auto Player (合法走子)
 // @namespace    local.2048.auto
-// @version      2.6.0
+// @version      2.6.1
 // @description  v2.6：强化蛇形递减/反夹心；次大贴角；危机盘加深；合法move only
 // @author       local
-// @homepageURL  file:///D:/workspace/XYTX/userscripts/2048-auto-player/
+// @homepageURL  https://github.com/xiaoyangtx996/2048-auto-player
+// @downloadURL  https://raw.githubusercontent.com/xiaoyangtx996/2048-auto-player/main/2048-auto-player.user.js
+// @updateURL    https://raw.githubusercontent.com/xiaoyangtx996/2048-auto-player/main/2048-auto-player.user.js
 // @match        *://2048.linux.do/*
 // @match        *://*.linux.do/2048*
 // @match        *://play2048.co/*
@@ -144,7 +146,7 @@
     historyLimit: 30,
   };
 
-  const VERSION = '2.6.0';
+  const VERSION = '2.6.1';
 
   function pageLooksLike2048() {
     if (window.canvasGame && typeof window.canvasGame.handleMove === 'function') return true;
