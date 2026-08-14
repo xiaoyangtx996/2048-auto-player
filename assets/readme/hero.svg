@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" width="100%" role="img" aria-labelledby="title desc">
+  <title id="title">2048-auto-player</title>
+  <desc id="desc">Tampermonkey userscript that auto-plays 2048 with legal moves, expectimax search, and a descending snake heuristic.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1a1a1a"/>
+      <stop offset="100%" stop-color="#2d2418"/>
+    </linearGradient>
+    <filter id="soft" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="6" stdDeviation="10" flood-color="#000" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="420" rx="28" fill="url(#bg)"/>
+  <rect x="24" y="24" width="1152" height="372" rx="22" fill="none" stroke="#3d3428" stroke-width="2"/>
+
+  <!-- left copy -->
+  <text x="64" y="92" fill="#c4b5a0" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="22" font-weight="600" letter-spacing="3">USERSCRIPT · LEGAL MOVES ONLY</text>
+  <text x="64" y="168" fill="#f9f6f0" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="58" font-weight="750">2048-auto-player</text>
+  <text x="64" y="218" fill="#e8d5b5" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="26">,0/Ñê¨pP · ¥e'!‹</text>
+  <text x="64" y="268" fill="#a89880" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="22">expectimax · Ò=š · ÇbÏ</text>
+  <text x="64" y="340" fill="#7a6d5c" font-family="Consolas, ui-monospace, monospace" font-size="18">v2.6.0 · Tampermonkey / Violentmonkey</text>
+
+  <!-- right: mini board motif -->
+  <g filter="url(#soft)" transform="translate(720,70)">
+    <rect width="380" height="280" rx="18" fill="#bbada0"/>
+    <!-- tiles: descending snake hint along bottom then up -->
+    <g font-family="Segoe UI, Helvetica, Arial, sans-serif" font-weight="700" text-anchor="middle">
+      <!-- row0 -->
+      <rect x="16" y="16" width="80" height="80" rx="10" fill="#cdc1b4"/><text x="56" y="66" fill="#776e65" font-size="28"></text>
+      <rect x="108" y="16" width="80" height="80" rx="10" fill="#eee4da"/><text x="148" y="68" fill="#776e65" font-size="32">2</text>
+      <rect x="200" y="16" width="80" height="80" rx="10" fill="#cdc1b4"/>
+      <rect x="292" y="16" width="80" height="80" rx="10" fill="#ede0c8"/><text x="332" y="68" fill="#776e65" font-size="32">8</text>
+      <!-- row1 -->
+      <rect x="16" y="108" width="80" height="80" rx="10" fill="#f2b179"/><text x="56" y="160" fill="#f9f6f2" font-size="28">16</text>
+      <rect x="108" y="108" width="80" height="80" rx="10" fill="#f59563"/><text x="148" y="160" fill="#f9f6f2" font-size="28">32</text>
+      <rect x="200" y="108" width="80" height="80" rx="10" fill="#f67c5f"/><text x="240" y="160" fill="#f9f6f2" font-size="28">64</text>
+      <rect x="292" y="108" width="80" height="80" rx="10" fill="#f65e3b"/><text x="332" y="160" fill="#f9f6f2" font-size="24">128</text>
+      <!-- row2 bottom snake: 2048 1024 512 256 -->
+      <rect x="16" y="184" width="80" height="80" rx="10" fill="#edc22e"/><text x="56" y="234" fill="#f9f6f2" font-size="20">2048</text>
+      <rect x="108" y="184" width="80" height="80" rx="10" fill="#edc53f"/><text x="148" y="234" fill="#f9f6f2" font-size="20">1024</text>
+      <rect x="200" y="184" width="80" height="80" rx="10" fill="#edc850"/><text x="240" y="234" fill="#f9f6f2" font-size="22">512</text>
+      <rect x="292" y="184" width="80" height="80" rx="10" fill="#edcc61"/><text x="332" y="234" fill="#f9f6f2" font-size="22">256</text>
+    </g>
+  </g>
+</svg>

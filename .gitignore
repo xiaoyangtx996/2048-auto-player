@@ -1,0 +1,10 @@
+﻿# OS / editor
+.DS_Store
+Thumbs.db
+*.tmp
+_push_payload.json
+_build_payload.js
+
+# secrets
+.env
+.env.*
