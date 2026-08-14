@@ -16,10 +16,6 @@
 | 35,628 | 2048 | 同版本较早一局 |
 
 <p align="center">
-  <img src="assets/readme/run-v261-4096.png" alt="v2.6.1 对局截图：最大砖 4096，脚本面板运行中" width="100%">
-</p>
-
-<p align="center">
   <img src="assets/readme/run-v261-71580-daily.png" alt="日榜记录：xiaoyangtx996 · 71,580" width="100%">
 </p>
 
@@ -62,7 +58,6 @@ userscripts/
     README.md
     EXPERIENCE.md
     assets/readme/banner.png
-    assets/readme/run-v261-4096.png
     assets/readme/run-v261-71580-daily.png
     assets/readme/hero.svg
 ```
