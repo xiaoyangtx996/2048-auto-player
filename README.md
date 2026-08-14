@@ -55,7 +55,7 @@ userscripts/
     2048-auto-player.user.js
     README.md
     EXPERIENCE.md
-    assets/readme/hero.png
+    assets/readme/banner.png
     assets/readme/hero.svg
 ```
 
