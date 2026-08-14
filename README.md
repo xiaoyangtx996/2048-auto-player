@@ -1,7 +1,7 @@
 # 2048-auto-player
 
 <p align="center">
-  <img src="assets/readme/hero.svg" alt="2048-auto-player：本地启发式自动走子，合法滑动，不接入大模型" width="100%">
+  <img src="assets/readme/hero.png" alt="2048-auto-player：本地启发式自动走子，合法滑动，不接入大模型" width="100%">
 </p>
 
 在浏览器里用 **Tampermonkey / Violentmonkey** 自动玩 2048：每一步都是真正的方向滑动，分数由游戏服务端正常累计。
@@ -55,6 +55,7 @@ userscripts/
     2048-auto-player.user.js
     README.md
     EXPERIENCE.md
+    assets/readme/hero.png
     assets/readme/hero.svg
 ```
 
@@ -86,3 +87,8 @@ userscripts/
 ## 版本
 
 当前 **v2.6.0**：强化蛇形递减、反夹心、次大砖贴蛇身第二格、危机盘加深。
+
+## 友链
+
+- [LINUX DO](https://linux.do/) — 社区与讨论
+- [2048 @ LINUX DO](https://2048.linux.do/) — 本脚本主要适配的游戏页
