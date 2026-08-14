@@ -1,7 +1,7 @@
 # 2048-auto-player
 
 <p align="center">
-  <img src="assets/readme/hero.png?v=20260814-2" alt="2048-auto-player：本地启发式自动走子，合法滑动，不接入大模型" width="100%">
+  <img src="assets/readme/banner.png" alt="2048-auto-player：本地启发式自动走子，合法滑动，不接入大模型" width="100%">
 </p>
 
 在浏览器里用 **Tampermonkey / Violentmonkey** 自动玩 2048：每一步都是真正的方向滑动，分数由游戏服务端正常累计。

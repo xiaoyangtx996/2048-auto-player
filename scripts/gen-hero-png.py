@@ -8,7 +8,7 @@ from pathlib import Path
 from PIL import Image, ImageDraw, ImageFont
 
 ROOT = Path(__file__).resolve().parents[1]
-OUT = ROOT / "assets" / "readme" / "hero.png"
+OUT = ROOT / "assets" / "readme" / "banner.png"
 
 W, H = 1200, 420
 BG = (15, 17, 21)
